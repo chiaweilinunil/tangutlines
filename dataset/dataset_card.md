@@ -52,9 +52,6 @@ strings on both sides of the split.
 `n_chars`. `text` is the OCR target; `lfw` gives Li Fanwen catalogue numbers
 and `codepoints` an ASCII-safe form of the same string.
 
-The build is deterministic given `seed = 20260805`; rebuild with
-`src/build_dataset/`. 100 of 8,712 candidate lines were dropped because not
-every test typeface could render them.
 
 ## Real
 
